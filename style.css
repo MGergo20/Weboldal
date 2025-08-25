@@ -100,7 +100,49 @@ footer{
     margin: 15px;
     text-align: center;
 }
+.elore{
+    background-color: rosybrown;
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-color: rosybrown;
+}
+.hatra{
+    background-color: rosybrown;
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-color: rosybrown;
+}
 
 .menu2 img{
     max-width: 100%;
+}
+@media (max-width: 768px) {
+    .menu{
+        width: 40%;
+    }
+    .menu2{
+        width: 40%;
+    }
+    .nagykep{
+        width: 40%;
+    }
+}
+@media (max-width: 400px) {
+    .menu{
+        width: 90%;
+    }
+    .menu2{
+        width: 90%;
+    }
+    .nagykep{
+        width: 90%;
+    }
 }

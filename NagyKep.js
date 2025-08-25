@@ -18,8 +18,8 @@ export default class NagyKep {
                 <p>${elem.leiras}</p>
                 <ul>${elem.hozzavalok}</ul>
                 <p>${elem.kategoria}</p>
-                <button class ="hatra">Hátra</button>
-                <button class ="elore">Előre</button>
+                <button class ="hatra"><=</button>
+                <button class ="elore">=></button>
             </div>
             `;
         this.#szuloElem.appendChild(kivalasztas);
