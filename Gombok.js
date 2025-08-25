@@ -1,5 +1,5 @@
 import Index from "./index.js";
-export default class Gomb {
+export default class Gombok {
     #lista = [];
     #szuloElem;
     constructor(lista, szuloElem) {
