@@ -1,0 +1,106 @@
+body{
+    background: #fafafa url('https://www.transparenttextures.com/patterns/white-wall.png');
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+header{
+    border: 5px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace  ;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: rosybrown;
+}
+nav ul li{
+    list-style-type: none;
+}
+
+.fooldal{
+    background-color: rosybrown;
+    font-size: larger;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.kedvenc{
+    background-color:  rosybrown;
+    font-size: larger;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.jatekter{
+    border: 5px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.menu{
+    border: 5px solid grey;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    
+}
+.menu img{
+    max-width: 100%;
+    height: 200px;
+
+}
+footer{
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gomb{
+    background-color: rosybrown;
+    color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-color: rosybrown;
+}
+.cim{
+    text-align: center;
+    color: rosybrown;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+}
+
+.nagykep{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.menu2{
+    border: 5px solid grey;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.menu2 img{
+    max-width: 100%;
+}
